@@ -376,6 +376,7 @@ button:focus {
     background-color: #f1f3f6 !important;
     background: linear-gradient(180deg, rgba(241, 243, 246, 1) 0%, rgba(241, 243, 246, 1) 90%, rgba(3, 218, 197, 1) 95%);
     padding-bottom: 5em;
+    padding-top: 1em;
 }
 
 
