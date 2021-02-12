@@ -373,7 +373,9 @@ button:focus {
 }
 
 .raf-greyTocyan {
-    background-color: #03DAC5 !important;
+    background-color: #f1f3f6 !important;
+    background: linear-gradient(180deg, rgba(241, 243, 246, 1) 0%, rgba(241, 243, 246, 1) 90%, rgba(3, 218, 197, 1) 95%);
+    padding-bottom: 5em;
 }
 
 
