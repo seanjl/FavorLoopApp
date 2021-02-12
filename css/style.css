@@ -102,6 +102,16 @@ nav {
     text-align: center;
 }
 
+.team-rank {
+    width: 100%;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    padding-bottom: 0.35em;
+    padding-top: 0.20em;
+    text-align: center;
+    color: #636363 !important;
+}
+
 .card-neumorph {
     margin: auto;
     margin-top: 1em;
