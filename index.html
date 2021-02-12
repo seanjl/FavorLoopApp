@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-    <title>sean leitch | Web & App Developer</title>
+    <title>FAVORLOOP | Ayuda en tu comunidad!</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,9 +12,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -22,67 +20,70 @@
 </head>
 
 <body>
-    <nav class="raf-blue-a1" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo font-nunito">sean leitch</a>
+    <nav class="" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo black-text"><img class="nav-icon" src="favicon.ico">
+                <p class="nav-text">FAVORLOOP</p>
+            </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#whoami">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#index-banner" class="black-text">Inicio</a></li>
+                <li><a href="#info" class="black-text">Info</a></li>
+                <li><a href="#gallery" class="black-text">Galería</a></li>
+                <li><a href="#download" class="black-text">Descargar</a></li>
+                <li><a href="#equipo" class="black-text">Equipo</a></li>
+                <li><a href="#contact" class="black-text">Contacto</a></li>
             </ul>
 
-            <ul id="nav-mobile" class="sidenav raf-blue">
-                <li><a href="#whoami" class=" white-text">Home</a></li>
-                <li><a href="#portfolio" class=" white-text">Portfolio</a></li>
-                <li><a href="#skills" class=" white-text">Skills</a></li>
-                <li><a href="#contact" class=" white-text">Contact</a></li>
+            <ul id="nav-mobile" class="sidenav raf-cyan">
+                <li><a href="#index-banner" class="black-text">Home</a></li>
+                <li><a href="#portfolio" class="black-text">Portfolio</a></li>
+                <li><a href="#skills" class="black-text">Skills</a></li>
+                <li><a href="#skills" class="black-text">Descargar</a></li>
+                <li><a href="#equipo" class="black-text">Equipo</a></li>
+                <li><a href="#contact" class="black-text">Contacto</a></li>
             </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger cyan-text"><i class="material-icons">menu</i></a>
         </div>
     </nav>
 
-    <div class="section no-pad-bot banner curved-bottom" id="index-banner">
+    <div class="section no-pad-bot banner" id="index-banner">
         <div class="container">
-            <h1 class="mt-2 banner-title" data-aos="fade-left">web dev</h1>
+            <!--   Icon Section   -->
+            <div class="row mt-2 mb-4">
+                <div class="col s12 m6">
+                    <div class="icon-block" data-aos="flip-left">
+                        <h1 class="mt-2 banner-title" data-aos="fade-left"><span class="txt-raf-cyan">Haz un favor</span> a alguien de tu comunidad</h1>
+                        <p class="flow-text left font-nunito">Encuentra a personas para echaros una mano mútuamente</p>
+
+                        <a href="" class="center-block">
+                            <img class="max-width-50" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m6 mt-2" data-aos="fade-right">
+                    <div class="icon-block">
+                        <img class="max-width-50 center-block" alt='header-img' src="assets/header-app-home.png" />
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
 
-
     <main>
-        <!-- Introduction -->
-        <div class="container" id="whoami">
-            <div class="section">
-
-                <!--   Icon Section   -->
-                <div class="row mt-2">
-                    <div class="col s12 m6">
-                        <div class="icon-block" data-aos="flip-left">
-                            <h2 class="center">Who am I?</h2>
-
-                            <p class="flow-text center">I'm a software developer and student at the European University of Madrid</p>
-                        </div>
-                    </div>
-
-                    <div class="col s12 m6 mt-2" data-aos="flip-right">
-                        <div class="icon-block">
-                            <p class="flow-text center">I run <a href="http://seanjl.github.io/Metizy">Metizy</a>, a web development agency.<br>I also edit music videos and create other media content.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <br><br>
-        </div>
-
-        <!-- Portfolio -->
-        <div class="raf-neum" id="portfolio">
+        <!-- Info -->
+        <div class="raf-neum" id="info">
             <div class="container section" data-aos="zoom-out">
 
                 <!--   Icon Section   -->
                 <div class="row">
-                    <h2 class="center black-text">Stuff I'm Working On</h2>
-                    <!-- Metizy -->
+                    <h2 class="center black-text">Qué es FavorLoop</h2>
+                    <p class="flow-text center black-text font-nunito mb-2">FlavorLoop es un servicio que te permite ayudar y ser ayudado por personas de tu comunidad <br> ¿Necesitas que te echen una mano? ¡Quizás un vecino te pueda ayudar! </p>
+
+                    <!-- 
+
                     <div class="col s12 m4 center">
                         <div class="card-neumorph" data-aos="zoom-in">
                             <div class="">
@@ -92,18 +93,9 @@
                                 <p>Metizy is my web design & development agency. Do you need an affordable, good-looking website for your business? Head over to Metizy!</p>
                                 <p><br>You can find my website portfolio <a href="http://seanjl.github.io/Metizy#portfolio">here</a></p>
                             </div>
-
-                            <a href="http://seanjl.github.io/Metizy" class="white-text center">
-                                <button class="button">
-                                        Go to website >
-                                </button>
-                            </a>
-
-
                         </div>
                     </div>
 
-                    <!-- Petronum -->
                     <div class="col s12 m4 center">
                         <div class="card-neumorph" data-aos="zoom-in">
                             <div class="">
@@ -114,18 +106,9 @@
                                     have.
                                 </p>
                             </div>
-
-                            <a href="apps/petronum.html" class="white-text center">
-                                <button class="button">
-                                    Go to website >
-                                </button>
-                            </a>
-
-
                         </div>
                     </div>
 
-                    <!-- Betterly -->
                     <div class="col s12 m4 center">
                         <div class="card-neumorph" data-aos="zoom-in">
                             <div class="">
@@ -134,102 +117,35 @@
                             <div class="card-content black-text">
                                 <p>Betterly is a news-aggregator which helps people improve their lives and become happier.<br><br> It does this by showing articles related personal development, motivation, uplifting news, discipline, dopamine detox, etc...</p>
                             </div>
-
-                            <a href="http://seanjl.github.io/Betterly" class="white-text center">
-                                <button class="button">
-                                    Go to website >
-                                </button>
-                            </a>
                         </div>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="col s12 m4 center offset-m4 mb-1">
-                        <!-- PORTFOLIO -->
-                        <a href="work.html" class="white-text">
-                            <button class="buttonbig">
-                                    <p>Check out<br> my portfolio ></p>
-                            </button>
+                    -->
 
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Blog 
-        <div class="raf-scarlet" id="blog">
-            <div class="container section" data-aos="fade-down">
-                <h2 class="white-text">Blog</h2>
-
-                <!--   Icon Section   ->
-                <div class="row">
-
-                    <!-- Post1: Welcome to my Blog ->
-                    <div class="col s12 m4 center">
-                        <div class="card-blog-scarlet">
-                            <p class="card-blog-title black-text">Welcome to my blog!</p>
-                            <p class="card-blog-date">31 Jan 2021</p>
-                            <p>This is the first post on my brand new blog!</p>
-
-                            <a href="blog/2021/1/31-welcometomyblog.html" class="white-text">
-                                <button class="button-blog">Read more ></button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- PORTFOLIO ->
-                    <div class="col s12 m4 center">
-                        <a href="blog.html" class="white-text">
-                            <button class="button-blog">Check out my blog ></button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>  -->
-
-        <!-- Skills -->
-        <div class="raf-neum" id="skills">
+        <!-- Galería -->
+        <div class="raf-white" id="gallery">
             <div class="section container" data-aos="zoom-in">
-                <h2 class="txt-raf-blue">Skills</h2>
+                <h2 class="black-text">Galería</h2>
 
                 <!-- Row1 -->
                 <div class="row mt-2">
-                    <!-- Web Development -->
+                    <!-- Pic 1 -->
                     <div class="col s12 m4">
-                        <div class="card-neumorph" data-aos="fade-left">
-                            <h5 class="card-skills-title black-text">Coding</h5>
-                            <div class="card-skills white-text">
-                                <p class="black-text">- Web Development (HTML, CSS, JS, Bootstrap)</p>
-                                <p class="black-text">- Android App Development (Java), FireBase</p>
-                                <p class="black-text">- Java, Spring, Maven, Hibernate</p>
-                                <p class="black-text">- Python</p>
-                                <p class="black-text">- Git</p>
-                            </div>
-                        </div>
+                        <img src="assets/gallery/activity_ayudas.png" class="gallery-pic">
                     </div>
 
-                    <!-- Media -->
+                    <!-- Pic 2 -->
                     <div class="col s12 m4">
-                        <div class="card-neumorph" data-aos="fade-up">
-                            <h5 class="card-skills-title black-text">Media</h5>
-                            <div class="card-skills">
-                                <p class="black-text">- Image Editing and Video Editing</p>
-                                <p class="black-text">- Adobe Photoshop</p>
-                                <p class="black-text">- Adobe Premiere</p>
-                            </div>
-                        </div>
+                        <img src="assets/gallery/activity_splash.png" class="gallery-pic-xl">
                     </div>
 
-                    <!-- Media -->
-                    <div class="col s12 m4">
-                        <div class="card-neumorph" data-aos="fade-right">
-                            <h5 class="card-skills-title black-text">Languages</h5>
-                            <div class="card-skills white-text">
-                                <p class="black-text center">I speak fluent English and Spanish</p>
-                            </div>
-                        </div>
+                    <!-- Pic 3 -->
+                    <div class="col s12 m4" data-aos="zoom-in">
+                        <img src="assets/gallery/header-app-home.png" class="gallery-pic">
                     </div>
                 </div>
 
@@ -237,80 +153,125 @@
             <br><br>
         </div>
 
-        <!-- Contact -->
-        <div class="raf-blue" id="contact">
-            <div class="section container">
-                <h2 class="">Contact</h2>
+        <!-- Descargar -->
+        <div class="raf-neum" id="download">
+            <div class="container section" data-aos="zoom-out">
 
-                <!-- Row1 -->
-                <div class="row mt-2">
-                    <!-- Email -->
-                    <a href="mailto:sean.leitch@outlook.com">
-                        <div class="col s12 m3">
-                            <div class="card-neumorph-rafblue">
-                                <h5 class="card-skills-title">Email</h5>
-                                <p class="white-text center">sean.leitch@outlook.com</p>
+                <!--   Icon Section   -->
+                <div class="row">
+                    <h2 class="left-align black-text">Descargar</h2>
+
+                    <!-- Picture -->
+                    <div class="col s12 m4 center">
+                        <div class="" data-aos="zoom-in">
+                            <div class="">
+                                <img src="assets/gallery/header-app-home.png" class="download-pic">
                             </div>
                         </div>
-                    </a>
+                    </div>
 
-                    <!-- Instagram -->
-                    <a href="https://www.instagram.com/seanjleitch/">
-                        <div class="col s12 m3">
-                            <div class="card-neumorph-rafblue">
-                                <h5 class="card-skills-title">Instagram</h5>
-                                <p class="white-text center">@seanjleitch</p>
+                    <!-- Download it -->
+                    <div class="col s12 m8 center">
+                        <div class="card-neumorph" data-aos="zoom-in">
+                            <div class="flow-text black-text font-nunito">
+                                <p>¡Únete a la comunidad de gente que se ayuda entre ellos!</p>
+                                <p>FavorLoop sigue en fase de desarrollo y de momento no está disponible para el público</p>
                             </div>
-                        </div>
-                    </a>
 
-                    <!-- LinkedIn -->
-                    <a href="https://www.linkedin.com/in/seanjleitch/">
-                        <div class="col s12 m3">
-                            <div class="card-neumorph-rafblue">
-                                <h5 class="card-skills-title">LinkedIn</h5>
-                                <p class="white-text center">seanjleitch</p>
-                            </div>
-                        </div>
-                    </a>
+                            <a href="" class="white-text center">
+                                <button class="button">
+                                    Descargar >
+                                </button>
+                            </a>
 
-                    <!-- GitHub -->
-                    <a href="https://github.com/seanjl/">
-                        <div class="col s12 m3">
-                            <div class="card-neumorph-rafblue">
-                                <h5 class="card-skills-title">GitHub</h5>
-                                <p class="white-text center">seanjl</p>
-                            </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
-            <br>
-        </div>
+
+            <!-- Equipo -->
+            <div class="raf-white" id="team">
+                <div class="section container" data-aos="zoom-in">
+                    <h2 class="black-text">Equipo</h2>
+
+                    <!-- Row1 -->
+                    <div class="row mt-2">
+                        <!-- Sean -->
+                        <div class="col s12 m3">
+                            <div class="card-neumorph" data-aos="flip-left">
+                                <img class="team-pic center-block" src="assets/team/sean.png">
+                                <h5 class="card-skills-title black-text">Desarrollador</h5>
+                            </div>
+                        </div>
+
+                        <!-- Nacho -->
+                        <div class="col s12 m3">
+                            <div class="card-neumorph" data-aos="flip-right">
+                                <img class="team-pic center-block" src="assets/team/nacho.png">
+                                <h5 class="card-skills-title black-text">Desarrollador</h5>
+                            </div>
+                        </div>
+
+                        <!-- Santi -->
+                        <div class="col s12 m3">
+                            <div class="card-neumorph" data-aos="flip-left">
+                                <img class="team-pic center-block" src="assets/team/santi.png">
+                                <h5 class="card-skills-title black-text">Desarrollador</h5>
+                            </div>
+                        </div>
+
+                        <!-- Juan -->
+                        <div class="col s12 m3">
+                            <div class="card-neumorph" data-aos="flip-right">
+                                <img class="team-pic center-block" src="assets/team/juan.png">
+                                <h5 class="card-skills-title black-text">Desarrollador</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br><br>
+                </div>
+
+                <!-- Contact -->
+                <div class="raf-cyan" id="contact">
+                    <div class="section container">
+                        <h2 class="">Contacto</h2>
+
+                        <!-- Row1 -->
+                        <div class="row mt-2">
+                            <!-- Email -->
+                            <a href="mailto:favorloopcontact@gmail.com">
+                                <div class="col s12 m12">
+                                    <div class="card-neumorph-contact">
+                                        <p class="black-text center flow-text">favorloopcontacto@gmail.com</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                </div>
     </main>
 
     <footer class="page-footer grey darken-4">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">sean leitch</h5>
-                    <p class="white-text text-lighten-4">I create websites, music videos, apps and other media content.</p>
+                    <h5 class="white-text">FavorLoop</h5>
+                    <p class="white-text text-lighten-4 font-nunito">¡Ayuda a gente en tu comunidad!</p>
                 </div>
 
                 <div class="col l3 s12">
-                    <h5 class="white-text">contact</h5>
+                    <h5 class="white-text">contacto</h5>
                     <ul>
-                        <li><a class="blue-text lighten-4" href="mailto:sean.leitch@outlook.com?Subject=Contact%20Sean" target="_top">Email</a></li>
-                        <li><a class="blue-text lighten-4" href="https://www.instagram.com/seanjleitch/">Instagram</a></li>
-                        <li><a class="blue-text lighten-4" href="https://github.com/seanjl/">GitHub</a></li>
-                        <li><a class="blue-text lighten-4" href="https://www.linkedin.com/in/seanjleitch/">LinkedIn</a></li>
+                        <li><a class="txt-raf-cyan" href="mailto:favorloopcontacto@gmail.com?Subject=Contact%20Sean" target="_top">Email</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container white-text">
-                Made by <a class="blue-text lighten-4" href="http://github.com/seanjl"><b>seanjl</b></a>
+                Creado por <a class="txt-raf-cyan" href="https://github.com/seanjl/FavorLoop"><b>alumnos de la UEM</b></a>
             </div>
         </div>
     </footer>
