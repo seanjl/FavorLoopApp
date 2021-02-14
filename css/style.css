@@ -63,28 +63,6 @@
                 padding-top: 0.10em;
             }
             
-            .h2-hl-scarlet {
-                color: white;
-                background-color: #cd1231d5;
-                width: wrap-content;
-                display: inline-block;
-                padding-left: 0.3em;
-                padding-right: 0.3em;
-                padding-bottom: 0.15em;
-                padding-top: 0.10em;
-            }
-            
-            .h2-hl-rafblue {
-                color: white;
-                background-color: #012856;
-                width: wrap-content;
-                display: inline-block;
-                padding-left: 0.3em;
-                padding-right: 0.3em;
-                padding-bottom: 0.15em;
-                padding-top: 0.10em;
-            }
-            
             .card-skills {
                 padding: 0 0 0.5em 1em;
             }
@@ -200,6 +178,7 @@
             .button:hover {
                 background: #02c5b2;
                 border: .0625rem solid #1c648000;
+                transition: 0.3s !important;
                 box-shadow: inset 2px 2px 5px #0f3f47, inset -3px -3px 7px #00d9ff40;
             }
             
@@ -210,157 +189,7 @@
             button:focus {
                 outline: none !important;
             }
-            
-            .buttonbig {
-                margin: auto;
-                margin-top: 2em;
-                margin-bottom: 2em;
-                padding: 0.8em 2em 1em 2em;
-                display: flex;
-                flex-direction: column;
-                background-color: #0173CF !important;
-                width: auto;
-                height: auto;
-                text-decoration: none;
-                color: #fff;
-                outline: none !important;
-                border: .0625rem solid #0064b6;
-                border-radius: 25px;
-                font-weight: 700;
-                font-size: 1em;
-                font-family: 'Nunito Sans', sans-serif;
-                box-shadow: 10px 10px 15px #3748aa40, -10px -8px 15px #bfbaff40;
-                transition: 0.3s !important;
-            }
-            
-            .buttonbig:hover {
-                background: #006ac0;
-                border: .0625rem solid #41801c00;
-                box-shadow: inset 2px 2px 5px #0f1747, inset -3px -3px 7px #001aff40;
-            }
-            
-            .curved-bottom {
-                border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
-            }
-            /* BLOG */
-            
-            .blog-banner-title {
-                color: white;
-                background-color: #012956cc;
-                width: wrap-content;
-                display: inline-block;
-                padding-left: 0.3em;
-                padding-right: 0.3em;
-                padding-bottom: 0.15em;
-                padding-top: 0.10em;
-                font-weight: 600;
-            }
-            
-            .blog-banner-title-art {
-                color: white;
-                width: wrap-content;
-                display: inline-block;
-                padding-left: 0.3em;
-                padding-right: 0.3em;
-                padding-bottom: 0.15em;
-                padding-top: 0.10em;
-                font-weight: 600;
-            }
-            
-            .blog-banner-date-art {
-                color: white;
-                width: wrap-content;
-                background-color: #012956cc;
-                display: inline-block;
-                padding-left: 0.3em;
-                padding-right: 0.3em;
-                padding-bottom: 0.15em;
-                padding-top: 0.10em;
-                font-size: 2em;
-                font-weight: 600;
-                font-style: italic;
-            }
-            
-            .blog-art-p {
-                color: #000000;
-                width: 90%;
-                display: inline-block;
-                padding-left: 0.3em;
-                padding-right: 0.3em;
-                padding-bottom: 0.15em;
-                padding-top: 0.10em;
-                font-size: 1rem;
-                font-weight: 400;
-            }
-            
-            .card-blog-title {
-                width: 100%;
-                font-size: 2em;
-                text-align: center;
-            }
-            
-            .card-blog-date {
-                font-size: 1em;
-                margin-top: -1em;
-                text-align: center;
-            }
-            
-            .button-blog {
-                margin: auto;
-                margin-top: 2em;
-                margin-bottom: 2em;
-                padding: 0.8em 2em 2em 2em;
-                display: flex;
-                flex-direction: column;
-                background-color: #CD1231 !important;
-                width: auto;
-                height: 33px;
-                text-decoration: none;
-                color: #fff;
-                outline: none !important;
-                border: .0625rem solid #b60000;
-                border-radius: 25px;
-                font-weight: 700;
-                font-size: 1em;
-                font-family: 'Nunito Sans', sans-serif;
-                box-shadow: 10px 10px 15px #aa373740, -10px -8px 15px #ffbaba40;
-                transition: 0.3s !important;
-            }
-            
-            .button-blog:hover {
-                background: #920c22;
-                border: .0625rem solid #41801c00;
-                box-shadow: inset 2px 2px 5px #470f0f, inset -3px -3px 7px #ff000040;
-            }
             /* Colours */
-            
-            .dark-grey {
-                background-color: #333333ee !important;
-            }
-            
-            .raf-blue {
-                background-color: #012856 !important;
-            }
-            
-            .raf-blue-a1 {
-                background-color: #012956ce !important;
-            }
-            
-            .raf-scarlet {
-                background-color: #CD1231 !important;
-            }
-            
-            .raf-lblue {
-                background-color: #A3ACB9 !important;
-            }
-            
-            .raf-nblue {
-                background-color: #0173CF !important;
-            }
-            
-            .raf-grey {
-                background-color: #E9E9E9 !important;
-            }
             
             .raf-white {
                 background-color: white !important;
@@ -368,10 +197,6 @@
             
             .raf-neum {
                 background-color: #f1f3f6 !important;
-            }
-            
-            .bg-brown {
-                background-color: #46241c !important;
             }
             
             .raf-cyan {
@@ -389,22 +214,6 @@
                 padding-top: 1em;
             }
             /* Text Colour */
-            
-            .txt-raf-blue {
-                color: #012856 !important;
-            }
-            
-            .txt-raf-blue-a1 {
-                color: #012956ce !important;
-            }
-            
-            .txt-raf-scarlet {
-                color: #CD1231 !important;
-            }
-            
-            .txt-raf-grey {
-                color: #E9E9E9 !important;
-            }
             
             .txt-raf-cyan {
                 color: #03DAC5 !important;
@@ -533,67 +342,3 @@
                 src: url(../fonts/alesand.otf);
             }
             /* Shapes */
-            
-            @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-            $primary-color: #8123ce;
-            $secondary-color: #3a54c6;
-            $third-color: #46a7dc;
-            .shape {
-                margin: 0 auto;
-                position: relative;
-                opacity: 0.7;
-            }
-            
-            .random-shape:after {
-                font-family: FontAwesome;
-                content: "\f04d";
-            }
-            
-            $circle-size: 100px;
-            $colors: #45ffdc,
-            #ffef96,
-            #ff94a1,
-            #cda1ff,
-            #31b4ff,
-            #4800c0,
-            #9300c9;
-            $shapes: '\f111',
-            '\f10c',
-            '\f068',
-            '\f22d',
-            '\f077',
-            '\f04b',
-            '\f067',
-            '\f04d';
-            $shape-count: 80;
-            @for $i from 1 through $shape-count {
-                $shape-size: 0.7 + random(10);
-                $rotation: random(360);
-                $speed: 40 + random(30);
-                $color-key: random( length($colors));
-                $shape-color: nth( $colors, $color-key);
-                $shape-key: random( length($shapes));
-                $shape-type: nth( $shapes, $shape-key);
-                $text: random(10);
-                @keyframes shape-#{$i} {
-                    0% {
-                        transform: translate3d(0,
-                        0,
-                        0) rotate(#{$rotation + 0}deg);
-                    }
-                    100% {
-                        transform: translate3d(0,
-                        0,
-                        0) rotate(#{$rotation + 360}deg);
-                    }
-                }
-                .shape-container--#{$i} {
-                    animation: shape-#{$i} #{$speed}s linear infinite;
-                    .random-shape:after {
-                        margin: #{$shape-size}rem;
-                        color: $shape-color;
-                        font-size: #{$shape-size * 0.2}rem;
-                        content: $shape-type;
-                    }
-                }
-            }
