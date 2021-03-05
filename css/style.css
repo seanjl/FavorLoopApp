@@ -1,5 +1,5 @@
             html {
-                font-family: 'Alesand' !important;
+                font-family: 'Nunito sans';
                 background: #020024;
                 background-color: #FBFBFB;
                 color: #000;
@@ -40,6 +40,7 @@
                 background-size: cover;
                 background-position: 50% 30%;
                 padding-bottom: 0;
+                font-family: 'Alesand' !important;
             }
             
             .banner-title {
@@ -62,6 +63,10 @@
                 padding-right: 0.3em;
                 padding-bottom: 0.15em;
                 padding-top: 0.10em;
+            }
+            
+            h2 {
+                font-family: 'Alesand' !important;
             }
             
             .card-skills {
@@ -340,8 +345,20 @@
                 max-width: 50%;
             }
             
+            .max-width-75 {
+                max-width: 75%;
+            }
+            
+            .max-width-100 {
+                max-width: 100%;
+            }
+            
             .max-width-5em {
                 max-width: 5em;
+            }
+            
+            .width-100 {
+                width: 100%;
             }
             /* Custom fonts */
             
